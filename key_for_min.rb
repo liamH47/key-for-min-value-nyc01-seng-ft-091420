@@ -7,6 +7,7 @@ lowest_value = 100
 hash.each_key do |key, value|
 if lowest_value == nil || value < lowest_value
   lowest_value = value
+  lowest_key = key
 end
 return lowest_key
 end
