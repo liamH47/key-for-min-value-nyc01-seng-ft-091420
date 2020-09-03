@@ -8,5 +8,5 @@ hash.each_key do |key, value|
 if lowest value > value
   lowest value = value
 end
-return
+return lowest_key
 end
